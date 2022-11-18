@@ -144,37 +144,37 @@ export default function Step9() {
         setSend(false);
       });
 
-    const DataToSend = {
-      from: "Leads Generator",
-      to: forEmail,
-      subject: "Leads Generator",
-      body: `
-        <strong>Leads Generator</strong> <br />
-        <strong>Vor- & Nachname: </strong> ${data.name} <br />
-        <strong>Telefonnummer : </strong> ${data.telefon} <br />
-        <strong>E-Mailadresse: </strong> ${data.email} <br />
-        <strong>Sind Sie Eigentümer der Immobilie?: </strong> ${userData.step1}<br />
-        <strong>Wie hoch ist Ihr Stromverbrauch?: </strong> ${userData.step2.consumo} kWh/Jahr <br />  </strong> ${userData.step2.personas} Personen im Haushalt <br />
-        <strong>Welche Dachform hat Ihr Haus?: </strong> ${userData.step3} <br />
-        <strong>Welche Finanzierung kommt für Sie Frage?: </strong> ${userData.step4} <br />
-        <strong>Wie heizen Sie Ihr Gebäude?: </strong> ${userData.step5} <br />
-        <strong>Wo soll die Photovoltaik installiert werden?: </strong> ${userData.step6} <br />
-        <strong>Weitere Optionen: </strong> ${userData.step7.distance} km/Jahr<br />
+    // const DataToSend = {
+    //   from: "Leads Generator",
+    //   to: forEmail,
+    //   subject: "Leads Generator",
+    //   body: `
+    //     <strong>Leads Generator</strong> <br />
+    //     <strong>Vor- & Nachname: </strong> ${data.name} <br />
+    //     <strong>Telefonnummer : </strong> ${data.telefon} <br />
+    //     <strong>E-Mailadresse: </strong> ${data.email} <br />
+    //     <strong>Sind Sie Eigentümer der Immobilie?: </strong> ${userData.step1}<br />
+    //     <strong>Wie hoch ist Ihr Stromverbrauch?: </strong> ${userData.step2.consumo} kWh/Jahr <br />  </strong> ${userData.step2.personas} Personen im Haushalt <br />
+    //     <strong>Welche Dachform hat Ihr Haus?: </strong> ${userData.step3} <br />
+    //     <strong>Welche Finanzierung kommt für Sie Frage?: </strong> ${userData.step4} <br />
+    //     <strong>Wie heizen Sie Ihr Gebäude?: </strong> ${userData.step5} <br />
+    //     <strong>Wo soll die Photovoltaik installiert werden?: </strong> ${userData.step6} <br />
+    //     <strong>Weitere Optionen: </strong> ${userData.step7.distance} km/Jahr<br />
 
-        `,
-    };
+    //     `,
+    // };
 
-    const respuesta = await sendForm(DataToSend);
-    if (respuesta.data.cod_resp === "000") {
-      gtag("event", "send_form", {
-        name: data.name,
-        email: data.email,
-      });
-      // myForm.current.reset();
-      // setStep(step + 1);
-    } else {
-      setSend(false);
-    }
+    // const respuesta = await sendForm(DataToSend);
+    // if (respuesta.data.cod_resp === "000") {
+    //   gtag("event", "send_form", {
+    //     name: data.name,
+    //     email: data.email,
+    //   });
+    //   // myForm.current.reset();
+    //   // setStep(step + 1);
+    // } else {
+    //   setSend(false);
+    // }
   };
 
   return (
@@ -274,7 +274,7 @@ export default function Step9() {
                 ></path>
               </svg>
             </div>
-            <span className={`${send ? "opacity-0" : "opacity-1"}`}>
+            <span  style={{color:"#fff"}} >
               Angebote erhalten kostenlos & unverbindlich
             </span>
           </button>
