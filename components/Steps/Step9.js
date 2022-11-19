@@ -131,7 +131,7 @@ export default function Step9() {
     };
     await axios
       .post(
-        `https://fe‐partnerportal.de/FE_API/lead_api/v1`,
+        `https://fe-partnerportal.de/FE_API/lead_api/v1/lead`,
         sendData,
         config
       )
