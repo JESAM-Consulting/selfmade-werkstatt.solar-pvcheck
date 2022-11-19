@@ -250,7 +250,7 @@ export default function Step9() {
             type="submit"
             className="mt-4 bg-green-1 items-center justify-center flex outline-none relative lg:px-12 lg:text-base md:px-8 font-visby font-bold py-3 rounded-md hover:cursor-pointer text-[#F1C88B] transition-all ease-in-out duration-150 hover:bg-opacity-90 hover:shadow-md hover:shadow-[#c3b3a3] md:text-sm md:w-auto text-sm w-full"
           >
-            <div className="absolute w-full flex justify-center items-center bg-slate-300 z-30">
+            {/* <div className="absolute w-full flex justify-center items-center bg-slate-300 z-30">
               <svg
                 className={`animate-spin h-5 w-5 text-white absolute${
                   send ? " block " : " hidden "
@@ -273,7 +273,7 @@ export default function Step9() {
                   d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
                 ></path>
               </svg>
-            </div>
+            </div> */}
             <span  style={{color:"#fff"}} >
               Angebote erhalten kostenlos & unverbindlich
             </span>
