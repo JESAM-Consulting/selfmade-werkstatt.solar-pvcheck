@@ -9,7 +9,6 @@ export default function Step1() {
       <h1 className="font-visby lg:text-3xl md:text-2xl text-xl font-bold ">
         Sind Sie Eigentümer der Immobilie?
       </h1>
-
       <div className="md:mt-8 mt-4 flex lg:items-center lg:space-x-8 lg:flex-row flex-col lg:space-y-0 space-y-4">
         <div className="flex md:items-center space-x-5 justify-center">
           <div
