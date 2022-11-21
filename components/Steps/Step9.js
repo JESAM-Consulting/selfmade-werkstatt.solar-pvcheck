@@ -126,7 +126,7 @@ export default function Step9() {
       interesse_finanzierung: userData.step4,
       dachform: userData.step3,
       art_heizung: userData.step5,
-      leadherkunft: "https://selfmade-werksatt.netlify.app/",
+      leadherkunft: "https://selfmade-werkstatt.solar-pvcheck.de/",
       Bemerkungen: calculatedDa,
     };
     await axios
