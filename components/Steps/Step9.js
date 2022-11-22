@@ -140,10 +140,27 @@ export default function Step9() {
         setStep(step + 1);
       })
 
+
+
+      const Data = {
+        Eigentuemer: userData.step1 === "Nein" ? false : true,
+        name: data.name,
+        plz: userData.step6,
+        telefon: data.telefon,
+        email: data.email,
+        stromverbrauch: parseInt(userData.step2.consumo),
+        interesse_finanzierung: userData.step4,
+        dachform: userData.step3,
+        art_heizung: userData.step5,
+        leadherkunft: "https://selfmade-werkstatt.solar-pvcheck.de/",
+        Bemerkungen: calculatedDa,
+        project:"selfmade-werkstatt"
+      };
+
       await axios
       .post(
         `https://fe-lead-commen-api.rejoicehub.com/FE_API/lead_api/v1/contact`,
-        sendData,
+         Data,
         config
       )
       .then((res) => {
