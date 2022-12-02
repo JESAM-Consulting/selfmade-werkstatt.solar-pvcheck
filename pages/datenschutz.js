@@ -44,8 +44,11 @@ export default function Datenschutz() {
           <div className="datenschutz-first-text">
             <p className="mb-3">
               Hier finden Sie unsere Informationen zum Datenschutz für:
-              <a href="https://www.solar-pvcheck.de/" target="_blank"  rel="noreferrer">
-                https://www.solar-pvcheck.de/
+              <a
+                href="https://selfmade-werkstatt.solar-pvcheck.de/"
+                target="_blank"
+                rel="noreferrer">
+                https://selfmade-werkstatt.solar-pvcheck.de/
               </a>
             </p>
           </div>
@@ -84,14 +87,12 @@ export default function Datenschutz() {
             </p>
             <a
               href="mailto: datenschutz@fe-leads.de"
-              className="font-medium text-base mb-3 block"
-            >
+              className="font-medium text-base mb-3 block">
               E-Mail: datenschutz@fe-leads.de{" "}
             </a>
             <a
               href="tel:0421 6485230"
-              className="font-medium text-base mb-3 block"
-            >
+              className="font-medium text-base mb-3 block">
               Telefon: 0421 6485230
             </a>
             <p className="font-medium text-base mb-3">
@@ -107,16 +108,15 @@ export default function Datenschutz() {
               <a
                 className="new-orange-text"
                 href="http://www.patronus-datenservice.de/"
-                target="_blank"  rel="noreferrer"
-              >
+                target="_blank"
+                rel="noreferrer">
                 {" "}
                 www.patronus-datenservice.de
               </a>
             </p>
             <a
               href="mailto: datenschutz@fe-leads.de"
-              className="font-medium text-base mb-3 block"
-            >
+              className="font-medium text-base mb-3 block">
               E-Mail: datenschutz@fe-leads.de
             </a>
             <ul className="list-type pl-3 pb-3">
@@ -208,12 +208,15 @@ export default function Datenschutz() {
               Nähere Informationen zu AWS und zum Datenschutz finden Sie unter
               <a
                 href="https://aws.amazon.com/de/compliance/eu-data-protection/"
-                target="_blank"  rel="noreferrer"
-              >
+                target="_blank"
+                rel="noreferrer">
                  https://aws.amazon.com/de/compliance/eu-data-protection/ sowie
               </a>{" "}
               unter{" "}
-              <a href="https://aws.amazon.com/de/privacy/" target="_blank"  rel="noreferrer">
+              <a
+                href="https://aws.amazon.com/de/privacy/"
+                target="_blank"
+                rel="noreferrer">
                 https://aws.amazon.com/de/privacy/
               </a>
               .
@@ -384,8 +387,8 @@ export default function Datenschutz() {
             <a
               className="font-medium text-base mb-3 block"
               href="https://policies.google.com/privacy"
-              target="_blank"  rel="noreferrer"
-            >
+              target="_blank"
+              rel="noreferrer">
               https://policies.google.com/privacy.
             </a>
             <p className="font-medium text-base mb-3">
@@ -396,8 +399,8 @@ export default function Datenschutz() {
               Opt-Out-Plugin:{" "}
               <a
                 href="http://tools.google.com/dlpage/gaoptout?hl=de"
-                target="_blank"  rel="noreferrer"
-              >
+                target="_blank"
+                rel="noreferrer">
                 http://tools.google.com/dlpage/gaoptout?hl=de
               </a>
               ,
@@ -408,8 +411,8 @@ export default function Datenschutz() {
             <p className="font-medium text-base mb-3">
               <a
                 href="https://myadcenter.google.com/?sasb=true"
-                target="_blank"  rel="noreferrer"
-              >
+                target="_blank"
+                rel="noreferrer">
                 https://adssettings.google.com/authenticated.
               </a>
             </p>
@@ -515,159 +518,289 @@ export default function Datenschutz() {
             </ul>
             <p className="font-medium text-base mb-3">Außerdem wird erfasst:</p>
             <ul className="list-type">
-              <li className="text-base font-medium pb-3">Ihr ungefährer Standort (Region)</li>
-              <li className="text-base font-medium pb-3">Ihre IP-Adresse (in gekürzter Form)
-</li>
-              <li className="text-base font-medium pb-3">technische Informationen zu Ihrem Browser und den von Ihnen genutzten Endgeräten (z.B. Spracheinstellung, Bildschirmauflösung)</li>
-              <li className="text-base font-medium pb-3">Ihr Internetanbieter</li>
-              <li className="text-base font-medium pb-3">die Referrer-URL (über welche Website/ über welches Werbemittel Sie auf diese Website gekommen sind)
-</li>
+              <li className="text-base font-medium pb-3">
+                Ihr ungefährer Standort (Region)
+              </li>
+              <li className="text-base font-medium pb-3">
+                Ihre IP-Adresse (in gekürzter Form)
+              </li>
+              <li className="text-base font-medium pb-3">
+                technische Informationen zu Ihrem Browser und den von Ihnen
+                genutzten Endgeräten (z.B. Spracheinstellung,
+                Bildschirmauflösung)
+              </li>
+              <li className="text-base font-medium pb-3">
+                Ihr Internetanbieter
+              </li>
+              <li className="text-base font-medium pb-3">
+                die Referrer-URL (über welche Website/ über welches Werbemittel
+                Sie auf diese Website gekommen sind)
+              </li>
             </ul>
             <p className="font-bold text-lg mb-3">
-            Google Analytics Berichte zu demografischen Merkmalen und Interessen
-
+              Google Analytics Berichte zu demografischen Merkmalen und
+              Interessen
             </p>
             <p className="font-medium text-base mb-3">
-            Wir haben in Google Analytics die Funktionen für Werbeberichte eingeschaltet. Die Berichte zu demografischen Merkmalen und Interessen enthalten Angaben zu Alter, Geschlecht und Interessen. Damit können wir uns – ohne diese Daten einzelnen Personen zuordnen zu können – ein besseres Bild von unseren Nutzern machen. Google verarbeitet die Daten und wir bekommen Berichte über Ihr Nutzerverhalten.
-             Dabei kann es sich unter anderem um folgende Berichte handeln:
+              Wir haben in Google Analytics die Funktionen für Werbeberichte
+              eingeschaltet. Die Berichte zu demografischen Merkmalen und
+              Interessen enthalten Angaben zu Alter, Geschlecht und Interessen.
+              Damit können wir uns – ohne diese Daten einzelnen Personen
+              zuordnen zu können – ein besseres Bild von unseren Nutzern machen.
+              Google verarbeitet die Daten und wir bekommen Berichte über Ihr
+              Nutzerverhalten. Dabei kann es sich unter anderem um folgende
+              Berichte handeln:
             </p>
             <p className="font-medium text-base mb-3">
-            <b>Zielgruppenberichte:</b> Über Zielgruppenberichte lernen wir unsere Nutzer besser kennen und wissen genauer, wer sich für 
-            unser Service interessiert.
+              <b>Zielgruppenberichte:</b> Über Zielgruppenberichte lernen wir
+              unsere Nutzer besser kennen und wissen genauer, wer sich für unser
+              Service interessiert.
             </p>
             <p className="font-medium text-base mb-3">
-            <b>Anzeigeberichte:</b> Durch Anzeigeberichte können wir unsere Onlinewerbung leichter analysieren und verbessern.
+              <b>Anzeigeberichte:</b> Durch Anzeigeberichte können wir unsere
+              Onlinewerbung leichter analysieren und verbessern.
             </p>
             <p className="font-medium text-base mb-3">
-            <b>Akquisitionsberichte:</b> Akquisitionsberichte geben uns hilfreiche Informationen darüber, wie wir 
-            mehr Menschen für unser Service begeistern können.
+              <b>Akquisitionsberichte:</b> Akquisitionsberichte geben uns
+              hilfreiche Informationen darüber, wie wir mehr Menschen für unser
+              Service begeistern können.
             </p>
             <p className="font-medium text-base mb-3">
-            <b>Verhaltensberichte:</b> Hier erfahren wir, wie Sie mit unserer Website interagieren. Wir können nachvollziehen welchen Weg Sie auf unserer Seite zurücklegen 
-            und welche Links Sie anklicken.
+              <b>Verhaltensberichte:</b> Hier erfahren wir, wie Sie mit unserer
+              Website interagieren. Wir können nachvollziehen welchen Weg Sie
+              auf unserer Seite zurücklegen und welche Links Sie anklicken.
             </p>
             <p className="font-medium text-base mb-3">
-            <b>Conversionsberichte:</b> Conversion nennt man einen Vorgang, bei dem Sie aufgrund einer Marketing-Botschaft eine gewünschte Handlung ausführen. Zum Beispiel, wenn Sie von einem reinen Websitebesucher zu einem Käufer oder Newsletter-Abonnent werden. Mithilfe dieser Berichte erfahren wir mehr darüber, wie unsere Marketing-Maßnahmen bei Ihnen ankommen. So wollen wir unsere Conversionrate 
-            steigern.
+              <b>Conversionsberichte:</b> Conversion nennt man einen Vorgang,
+              bei dem Sie aufgrund einer Marketing-Botschaft eine gewünschte
+              Handlung ausführen. Zum Beispiel, wenn Sie von einem reinen
+              Websitebesucher zu einem Käufer oder Newsletter-Abonnent werden.
+              Mithilfe dieser Berichte erfahren wir mehr darüber, wie unsere
+              Marketing-Maßnahmen bei Ihnen ankommen. So wollen wir unsere
+              Conversionrate steigern.
             </p>
             <p className="font-medium text-base mb-3">
-              
-<b>Echtzeitberichte:</b> Hier erfahren wir immer sofort, was gerade auf unserer Website passiert. Zum Beispiel sehen wir wie viele Nutzer gerade diesen Text lesen.
-
-            </p>
-            <p className="font-medium text-base mb-3">
-              <mark>[OPTIONAL: Wir nutzen die Funktion Nutzer-ID. Mithilfe der Nutzer ID können wir einer oder mehreren Sitzungen (und den Aktivitäten innerhalb dieser Sitzungen) eine eindeutige, dauerhafte ID zuweisen und Nutzerverhalten geräteübergreifend analysieren.]</mark>
-            </p>
-            <p className="font-medium text-base mb-3">
-              <mark>[OPTIONAL: Wir nutzen Google Signale. Damit werden in Google Analytics zusätzliche Informationen zu Nutzern erfasst, die personalisierte Anzeigen aktiviert haben (Interessen und demographische Daten) und Anzeigen können in geräteübergreifenden Remarketing-Kampagnen an diese Nutzer ausgeliefert werden.]
-</mark>
-            </p>
-            <p className="font-medium text-base mb-3">
-            Mehr über die Werbefunktionen erfahren Sie auf 
-            <a href="https://support.google.com/analytics/answer/3450482?hl=de_AT&utm_id=ad" target="_blank"  rel="noreferrer">https://support.google.com/analytics/answer/3450482?hl=de_AT&utm_id=ad</a>.
+              <b>Echtzeitberichte:</b> Hier erfahren wir immer sofort, was
+              gerade auf unserer Website passiert. Zum Beispiel sehen wir wie
+              viele Nutzer gerade diesen Text lesen.
             </p>
             <p className="font-medium text-base mb-3">
               <mark>
-              Sie können die Nutzung der Aktivitäten und Informationen Ihres Google Kontos unter “Einstellungen für Werbung” auf 
-              <a href="https://myadcenter.google.com/?sasb=true" target="_blank"  rel="noreferrer">
-              https://adssettings.google.com/authenticated
-              </a> per Checkbox beenden.
+                [OPTIONAL: Wir nutzen die Funktion Nutzer-ID. Mithilfe der
+                Nutzer ID können wir einer oder mehreren Sitzungen (und den
+                Aktivitäten innerhalb dieser Sitzungen) eine eindeutige,
+                dauerhafte ID zuweisen und Nutzerverhalten geräteübergreifend
+                analysieren.]
               </mark>
             </p>
-            <p className="font-bold text-lg mb-3">
-            IP-Anonymisierung
+            <p className="font-medium text-base mb-3">
+              <mark>
+                [OPTIONAL: Wir nutzen Google Signale. Damit werden in Google
+                Analytics zusätzliche Informationen zu Nutzern erfasst, die
+                personalisierte Anzeigen aktiviert haben (Interessen und
+                demographische Daten) und Anzeigen können in
+                geräteübergreifenden Remarketing-Kampagnen an diese Nutzer
+                ausgeliefert werden.]
+              </mark>
             </p>
             <p className="font-medium text-base mb-3">
-            Bei Google Analytics ist die Anonymisierung von IP-Adressen standardmäßig aktiviert. Aufgrund der IP-Anonymisierung wird Ihre IP-Adresse von Google innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum gekürzt. Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird laut Google nicht mit anderen Daten 
-            von Google zusammengeführt.
+              Mehr über die Werbefunktionen erfahren Sie auf
+              <a
+                href="https://support.google.com/analytics/answer/3450482?hl=de_AT&utm_id=ad"
+                target="_blank"
+                rel="noreferrer">
+                https://support.google.com/analytics/answer/3450482?hl=de_AT&utm_id=ad
+              </a>
+              .
+            </p>
+            <p className="font-medium text-base mb-3">
+              <mark>
+                Sie können die Nutzung der Aktivitäten und Informationen Ihres
+                Google Kontos unter “Einstellungen für Werbung” auf
+                <a
+                  href="https://myadcenter.google.com/?sasb=true"
+                  target="_blank"
+                  rel="noreferrer">
+                  https://adssettings.google.com/authenticated
+                </a>{" "}
+                per Checkbox beenden.
+              </mark>
+            </p>
+            <p className="font-bold text-lg mb-3">IP-Anonymisierung</p>
+            <p className="font-medium text-base mb-3">
+              Bei Google Analytics ist die Anonymisierung von IP-Adressen
+              standardmäßig aktiviert. Aufgrund der IP-Anonymisierung wird Ihre
+              IP-Adresse von Google innerhalb von Mitgliedstaaten der
+              Europäischen Union oder in anderen Vertragsstaaten des Abkommens
+              über den Europäischen Wirtschaftsraum gekürzt. Nur in
+              Ausnahmefällen wird die volle IP-Adresse an einen Server von
+              Google in den USA übertragen und dort gekürzt. Die im Rahmen von
+              Google Analytics von Ihrem Browser übermittelte IP-Adresse wird
+              laut Google nicht mit anderen Daten von Google zusammengeführt.
             </p>
             <p className="font-bold text-lg mb-3">Speicherdauer</p>
             <p className="font-medium text-base mb-3">
               <mark>
-              Die von uns gesendeten und mit Cookies verknüpften Daten werden nach 2 [ODER: 14 Monaten] 
-              automatisch gelöscht. Die Löschung von Daten, deren Aufbewahrungsdauer erreicht ist, erfolgt automatisch einmal im Monat.
+                Die von uns gesendeten und mit Cookies verknüpften Daten werden
+                nach 2 [ODER: 14 Monaten] automatisch gelöscht. Die Löschung von
+                Daten, deren Aufbewahrungsdauer erreicht ist, erfolgt
+                automatisch einmal im Monat.
               </mark>
             </p>
-            <p className="font-bold text-lg mb-3">
-            Rechtsgrundlage
+            <p className="font-bold text-lg mb-3">Rechtsgrundlage</p>
+            <p className="font-medium text-base mb-3">
+              Rechtsgrundlage für diese Datenverarbeitung ist Ihre Einwilligung
+              gem. Art.6 Abs.1 S.1 lit. a DS-GVO{" "}
             </p>
-            <p className="font-medium text-base mb-3">Rechtsgrundlage für diese Datenverarbeitung ist Ihre Einwilligung gem. Art.6 Abs.1 S.1 lit. a DS-GVO </p>
             <ul className="list-type pl-8">
               <li className="font-medum text-base pb-3">Löschen</li>
             </ul>
             <p className="font-medium text-base mb-3">
-            Ihre personenbezogenen Daten werden nur so lange gespeichert, wie es für die Zwecke, für die sie erhoben wurden, erforderlich ist, einschließlich der Erfüllung gesetzlicher Rechnungslegungs- 
-            oder Meldevorschriften.
+              Ihre personenbezogenen Daten werden nur so lange gespeichert, wie
+              es für die Zwecke, für die sie erhoben wurden, erforderlich ist,
+              einschließlich der Erfüllung gesetzlicher Rechnungslegungs- oder
+              Meldevorschriften.
             </p>
             <p className="font-medium text-base mb-3">
-            Wir sind gesetzlich verpflichtet, grundlegende Informationen zu unseren Kunden (einschließlich Kontakt-, Identitäts- und Transaktionsdaten, Geschäftsbriefe) aus steuerlichen sowie handelsrechtlichen Gründen für die Dauer von sechs Jahren nach Beendigung der Geschäftsbeziehung bzw. zehn Jahren nach Ende des laufenden Steuerjahrs, in dem die Rechnung erstellt wurde 
-            aufzubewahren (§ 257 HGB, § 147 AO u.a.).
+              Wir sind gesetzlich verpflichtet, grundlegende Informationen zu
+              unseren Kunden (einschließlich Kontakt-, Identitäts- und
+              Transaktionsdaten, Geschäftsbriefe) aus steuerlichen sowie
+              handelsrechtlichen Gründen für die Dauer von sechs Jahren nach
+              Beendigung der Geschäftsbeziehung bzw. zehn Jahren nach Ende des
+              laufenden Steuerjahrs, in dem die Rechnung erstellt wurde
+              aufzubewahren (§ 257 HGB, § 147 AO u.a.).
             </p>
             <p className="font-medium text-base mb-3">
-            Im Einzelfall gelten gesonderte Löschfristen, was wir dann in den jeweiligen Abschnitten 
-            herausgestellt haben.
+              Im Einzelfall gelten gesonderte Löschfristen, was wir dann in den
+              jeweiligen Abschnitten herausgestellt haben.
             </p>
             <p className="font-medium text-base mb-3">
-            Unter bestimmten Umständen können Sie die Löschung Ihrer personenbezogenen Daten verlangen: nähere Informationen dazu finden Sie unter 
-            „Recht auf Löschung“.
+              Unter bestimmten Umständen können Sie die Löschung Ihrer
+              personenbezogenen Daten verlangen: nähere Informationen dazu
+              finden Sie unter „Recht auf Löschung“.
             </p>
             <ul className="list-type pl-8">
               <li className="font-medum text-base pb-3">Ihre Rechte</li>
             </ul>
-            <p className="font-medium text-base mb-3">In bestimmten Fällen haben Sie in Bezug auf Ihre personenbezogenen Daten folgende Rechte:</p>
             <p className="font-medium text-base mb-3">
-            Recht auf Auskunft (Art. 15 DS-GVO) über Ihre personenbezogenen Daten, welche wir verarbeiten. Aufgrund dieses Rechts können Sie eine Kopie Ihrer bei uns gespeicherten personenbezogenen Daten erhalten und überprüfen, ob wir diese 
-            Daten rechtmäßig verarbeiten.
+              In bestimmten Fällen haben Sie in Bezug auf Ihre personenbezogenen
+              Daten folgende Rechte:
             </p>
             <p className="font-medium text-base mb-3">
-            Recht auf Berichtigung (Art. 16 DS-GVO) Ihrer bei uns gespeicherten personenbezogenen Daten. Aufgrund dieses Rechts können Sie bei uns gespeicherte unvollständige oder unrichtige Daten berichtigen lassen, auch wenn wir die Richtigkeit, der von Ihnen zur Verfügung gestellten neuen Daten möglicherweise überprüfen 
-            müssen.
+              Recht auf Auskunft (Art. 15 DS-GVO) über Ihre personenbezogenen
+              Daten, welche wir verarbeiten. Aufgrund dieses Rechts können Sie
+              eine Kopie Ihrer bei uns gespeicherten personenbezogenen Daten
+              erhalten und überprüfen, ob wir diese Daten rechtmäßig
+              verarbeiten.
             </p>
             <p className="font-medium text-base mb-3">
-            Recht auf Löschung (Art. 17 DS-GVO) Ihrer personenbezogenen Daten. Aufgrund dieses Rechts können Sie von uns die Löschung oder Entfernung von personenbezogenen Daten verlangen, wenn kein triftiger Grund für deren weitere Verarbeitung vorliegt. Sie können von uns auch die Löschung oder Entfernung Ihrer personenbezogenen Daten verlangen, wenn Sie Ihr Recht auf Widerspruch gegen die Verarbeitung erfolgreich ausgeübt haben (siehe unten), wenn wir Ihre Daten unrechtmäßig verarbeitet haben oder wenn wir zur Einhaltung lokaler Rechtsvorschriften zur Löschung verpflichtet sind. Möglicherweise kann Ihrem Löschungsantrag aus rechtlichen Gründen nicht immer nachgekommen werden, was Ihnen jedoch gegebenenfalls zum Zeitpunkt der Beantragung 
-            mitgeteilt wird.
-
+              Recht auf Berichtigung (Art. 16 DS-GVO) Ihrer bei uns
+              gespeicherten personenbezogenen Daten. Aufgrund dieses Rechts
+              können Sie bei uns gespeicherte unvollständige oder unrichtige
+              Daten berichtigen lassen, auch wenn wir die Richtigkeit, der von
+              Ihnen zur Verfügung gestellten neuen Daten möglicherweise
+              überprüfen müssen.
             </p>
             <p className="font-medium text-base mb-3">
-            Recht auf Einschränkung der Verarbeitung (Art. 18 DS-GVO) Ihrer personenbezogenen Daten. Aufgrund dieses Rechts können Sie uns in folgenden Fällen zur Aussetzung der Verarbeitung Ihrer personenbezogenen Daten auffordern: (a) wenn Sie möchten, dass wir die Richtigkeit dieser Daten feststellen; (b) wenn die Verwendung der Daten durch uns zwar unrechtmäßig ist, Sie aber gegen die Löschung sind; (c) wenn Sie möchten, dass wir die Daten länger als für uns notwendig speichern, da Sie diese zur Begründung, Ausübung oder Verteidigung von Rechtsansprüchen benötigen; oder (d) wenn Sie der Verwendung Ihrer Daten durch uns widersprochen haben, wir aber prüfen müssen, ob vorrangige berechtigte Gründe für ihre 
-            Verwendung vorliegen.
+              Recht auf Löschung (Art. 17 DS-GVO) Ihrer personenbezogenen Daten.
+              Aufgrund dieses Rechts können Sie von uns die Löschung oder
+              Entfernung von personenbezogenen Daten verlangen, wenn kein
+              triftiger Grund für deren weitere Verarbeitung vorliegt. Sie
+              können von uns auch die Löschung oder Entfernung Ihrer
+              personenbezogenen Daten verlangen, wenn Sie Ihr Recht auf
+              Widerspruch gegen die Verarbeitung erfolgreich ausgeübt haben
+              (siehe unten), wenn wir Ihre Daten unrechtmäßig verarbeitet haben
+              oder wenn wir zur Einhaltung lokaler Rechtsvorschriften zur
+              Löschung verpflichtet sind. Möglicherweise kann Ihrem
+              Löschungsantrag aus rechtlichen Gründen nicht immer nachgekommen
+              werden, was Ihnen jedoch gegebenenfalls zum Zeitpunkt der
+              Beantragung mitgeteilt wird.
             </p>
             <p className="font-medium text-base mb-3">
-            Recht auf Übertragbarkeit (Art. 20 DS-GVO) Ihrer personenbezogenen Daten an Sie oder einen Dritten. Wenn Sie dies wünschen, stellen wir Ihnen oder einem von Ihnen benannten Dritten eine Kopie Ihrer personenbezogenen Daten in einem strukturierten, gängigen, maschinenlesbaren Format zur Verfügung. Dieses Recht gilt jedoch nur für automatisierte Daten, in deren Verwendung Sie ursprünglich eingewilligt haben bzw. die zur Erfüllung eines Vertrags mit Ihnen verwendet 
-            wurden.
+              Recht auf Einschränkung der Verarbeitung (Art. 18 DS-GVO) Ihrer
+              personenbezogenen Daten. Aufgrund dieses Rechts können Sie uns in
+              folgenden Fällen zur Aussetzung der Verarbeitung Ihrer
+              personenbezogenen Daten auffordern: (a) wenn Sie möchten, dass wir
+              die Richtigkeit dieser Daten feststellen; (b) wenn die Verwendung
+              der Daten durch uns zwar unrechtmäßig ist, Sie aber gegen die
+              Löschung sind; (c) wenn Sie möchten, dass wir die Daten länger als
+              für uns notwendig speichern, da Sie diese zur Begründung, Ausübung
+              oder Verteidigung von Rechtsansprüchen benötigen; oder (d) wenn
+              Sie der Verwendung Ihrer Daten durch uns widersprochen haben, wir
+              aber prüfen müssen, ob vorrangige berechtigte Gründe für ihre
+              Verwendung vorliegen.
             </p>
             <p className="font-medium text-base mb-3">
-            Recht auf Widerspruch gegen die Verarbeitung (Art. 21 DS-GVO) Ihrer personenbezogenen Daten. Dieses Recht besteht, wenn wir uns auf ein berechtigtes Interesse (oder das eines Dritten) berufen und Ihre besondere Situation Sie dazu veranlasst, der Verarbeitung aus diesem Grund zu widersprechen, da Sie Ihre Grundrechte und Grundfreiheiten beeinträchtigt sehen. Ein Widerspruchsrecht haben Sie auch, wenn Ihre personenbezogenen Daten verarbeitet werden, um Direktwerbung zu betreiben. In manchen Fällen weisen wir möglicherweise zwingende schutzwürdige Gründe für die Verarbeitung nach, die Ihre Rechte und Freiheiten 
-            überwiegen
+              Recht auf Übertragbarkeit (Art. 20 DS-GVO) Ihrer personenbezogenen
+              Daten an Sie oder einen Dritten. Wenn Sie dies wünschen, stellen
+              wir Ihnen oder einem von Ihnen benannten Dritten eine Kopie Ihrer
+              personenbezogenen Daten in einem strukturierten, gängigen,
+              maschinenlesbaren Format zur Verfügung. Dieses Recht gilt jedoch
+              nur für automatisierte Daten, in deren Verwendung Sie ursprünglich
+              eingewilligt haben bzw. die zur Erfüllung eines Vertrags mit Ihnen
+              verwendet wurden.
             </p>
             <p className="font-medium text-base mb-3">
-            Recht, nicht einer automatisierten Entscheidungsfindung (Art. 22 DS-GVO) (einschließlich Profiling) unterworfen zu werden, wenn Sie dies erheblich beeinträchtigen würde. Da wir uns an solchen Tätigkeiten nicht beteiligen, ist dieses Recht in der Praxis für Ihre Nutzung der Website 
-            nicht relevant.
+              Recht auf Widerspruch gegen die Verarbeitung (Art. 21 DS-GVO)
+              Ihrer personenbezogenen Daten. Dieses Recht besteht, wenn wir uns
+              auf ein berechtigtes Interesse (oder das eines Dritten) berufen
+              und Ihre besondere Situation Sie dazu veranlasst, der Verarbeitung
+              aus diesem Grund zu widersprechen, da Sie Ihre Grundrechte und
+              Grundfreiheiten beeinträchtigt sehen. Ein Widerspruchsrecht haben
+              Sie auch, wenn Ihre personenbezogenen Daten verarbeitet werden, um
+              Direktwerbung zu betreiben. In manchen Fällen weisen wir
+              möglicherweise zwingende schutzwürdige Gründe für die Verarbeitung
+              nach, die Ihre Rechte und Freiheiten überwiegen
             </p>
             <p className="font-medium text-base mb-3">
-            Recht, die Einwilligung jederzeit zu widerrufen (Art. 7 Abs. 3 DS-GVO), wenn wir für die Verarbeitung Ihrer personenbezogenen Daten Ihre Einwilligung benötigen. Dies hat jedoch keine Auswirkung auf die Rechtmäßigkeit der Verarbeitung vor dem Widerruf der Einwilligung. Wenn Sie Ihre Einwilligung widerrufen, können wir Ihnen bestimmte Produkte, Inhalte oder Dienstleistungen möglicherweise nicht mehr zur Verfügung stellen. Darüber werden wir Sie zum Zeitpunkt des Widerrufs jedoch in 
-            Kenntnis setzen.
+              Recht, nicht einer automatisierten Entscheidungsfindung (Art. 22
+              DS-GVO) (einschließlich Profiling) unterworfen zu werden, wenn Sie
+              dies erheblich beeinträchtigen würde. Da wir uns an solchen
+              Tätigkeiten nicht beteiligen, ist dieses Recht in der Praxis für
+              Ihre Nutzung der Website nicht relevant.
             </p>
-            <p className="font-medium text-base mb-3">Recht, sich bei einer Aufsichtsbehörde zu beschweren.</p>
-            <p className="font-medium text-base mb-3">Die für uns zuständige Aufsichtsbehörde ist die:</p>
-            <p className="font-medium text-base mb-3">Bremen Datenschutzbehörde</p>
-            <p className="font-medium text-base mb-3">Landesbeauftragte für Datenschutz: Imke Sommer
-</p>
-            <p className="font-medium text-base mb-3">Adresse: Arndtstraße 1, 27570 Bremerhaven.
-</p>
-<ul className="list-type pl-8">
-              <li className="font-medum text-base pb-3">Änderungen dieser Datenschutzerklärung
-</li>
+            <p className="font-medium text-base mb-3">
+              Recht, die Einwilligung jederzeit zu widerrufen (Art. 7 Abs. 3
+              DS-GVO), wenn wir für die Verarbeitung Ihrer personenbezogenen
+              Daten Ihre Einwilligung benötigen. Dies hat jedoch keine
+              Auswirkung auf die Rechtmäßigkeit der Verarbeitung vor dem
+              Widerruf der Einwilligung. Wenn Sie Ihre Einwilligung widerrufen,
+              können wir Ihnen bestimmte Produkte, Inhalte oder Dienstleistungen
+              möglicherweise nicht mehr zur Verfügung stellen. Darüber werden
+              wir Sie zum Zeitpunkt des Widerrufs jedoch in Kenntnis setzen.
+            </p>
+            <p className="font-medium text-base mb-3">
+              Recht, sich bei einer Aufsichtsbehörde zu beschweren.
+            </p>
+            <p className="font-medium text-base mb-3">
+              Die für uns zuständige Aufsichtsbehörde ist die:
+            </p>
+            <p className="font-medium text-base mb-3">
+              Bremen Datenschutzbehörde
+            </p>
+            <p className="font-medium text-base mb-3">
+              Landesbeauftragte für Datenschutz: Imke Sommer
+            </p>
+            <p className="font-medium text-base mb-3">
+              Adresse: Arndtstraße 1, 27570 Bremerhaven.
+            </p>
+            <ul className="list-type pl-8">
+              <li className="font-medum text-base pb-3">
+                Änderungen dieser Datenschutzerklärung
+              </li>
             </ul>
             <p className="font-medium text-base mb-3">
-            Diese Datenschutzerklärung kann jederzeit aktualisiert oder anderweitig geändert werden. Über sämtliche Änderungen unserer Datenschutzerklärung werden Sie durch Veröffentlichung der geänderten Fassung auf der Website in Kenntnis gesetzt.
-
+              Diese Datenschutzerklärung kann jederzeit aktualisiert oder
+              anderweitig geändert werden. Über sämtliche Änderungen unserer
+              Datenschutzerklärung werden Sie durch Veröffentlichung der
+              geänderten Fassung auf der Website in Kenntnis gesetzt.
             </p>
             <p className="font-medium text-base mb-3">
-            Diese Version wurde zuletzt am unten angegebenen Datum geändert. Ältere Versionen können bei uns angefordert werden.
+              Diese Version wurde zuletzt am unten angegebenen Datum geändert.
+              Ältere Versionen können bei uns angefordert werden.
             </p>
             <p className="font-medium text-base mb-3">
-            Zuletzt geändert am: 20.09.2022
+              Zuletzt geändert am: 20.09.2022
             </p>
           </div>
         </div>
